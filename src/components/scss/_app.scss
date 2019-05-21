@@ -1,0 +1,81 @@
+.app_name {
+    @include flex-center;
+	margin: 20px;
+	
+	h1 {
+		@include font_700;
+		font-size: 48px;
+	}
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.section-title {
+	display: none;
+}
+
+.message {
+	margin-top: 30px;
+    display: none;
+    @include flex-center;
+}
+
+.poison {
+	background-color: rgb(235, 59, 59);
+}
+
+.bug {
+	background-color: rgb(243, 184, 74);
+}
+
+.flying {
+	background-color: rgb(77, 156, 77);
+}
+
+.water {
+	background-color: rgb(85, 85, 236);
+}
+
+.normal {
+	background-color: rgb(93, 93, 146);
+}
+
+.electric {
+	background-color: lightsalmon;
+}
+
+.ground {
+	background-color: rgb(144, 70, 70);
+}
+
+.fire {
+	background-color: rgb(182, 50, 50);
+}
+
+.fairy {
+	background-color: rgb(226, 184, 78);
+}
+
+.fighting {
+	background-color: rgb(145, 98, 98);
+}
+
+.psychic {
+	background-color: rgb(236, 236, 99);
+}
+
+.ghost {
+	background-color: gray;
+}
+
+.ice {
+	background-color: lightblue;
+}
+
+.grass {
+	background-color: lightgreen;
+}

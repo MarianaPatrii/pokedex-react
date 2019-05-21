@@ -1,0 +1,15 @@
+@mixin font_700 {
+    font-weight: 700;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin table_bg {
+    border: 2px solid rgb(90, 89, 89);
+}
+
+

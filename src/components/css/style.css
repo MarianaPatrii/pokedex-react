@@ -1,0 +1,139 @@
+.category-container {
+  margin: 20px; }
+  .category-container .label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 130%;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline; }
+
+.cf {
+  margin: 20px; }
+
+.pokeitem {
+  height: 200px;
+  width: 150px;
+  border: 2px solid #5a5959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px; }
+  .pokeitem .name {
+    color: #5a5959;
+    text-transform: capitalize; }
+  .pokeitem:hover {
+    background: rgba(221, 221, 221, 0.5); }
+
+.pokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #5a5959;
+  padding: 20px;
+  margin-top: 18rem;
+  margin-left: 8rem; }
+
+@media only screen and (max-width: 768px) {
+  .pokemon {
+    margin-top: 4rem; } }
+@media only screen and (max-width: 992px) {
+  .pokemon {
+    margin-top: 6rem;
+    margin-left: 1rem; } }
+.table {
+  border: 2px solid #5a5959; }
+  .table tbody tr td {
+    border: 2px solid #5a5959; }
+
+.pokemon-name {
+  text-transform: capitalize; }
+
+.app_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; }
+  .app_name h1 {
+    font-weight: 700;
+    font-size: 48px; }
+
+a:hover {
+  text-decoration: none; }
+
+.section-title {
+  display: none; }
+
+.message {
+  margin-top: 30px;
+  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.poison {
+  background-color: #eb3b3b; }
+
+.bug {
+  background-color: #f3b84a; }
+
+.flying {
+  background-color: #4d9c4d; }
+
+.water {
+  background-color: #5555ec; }
+
+.normal {
+  background-color: #5d5d92; }
+
+.electric {
+  background-color: lightsalmon; }
+
+.ground {
+  background-color: #904646; }
+
+.fire {
+  background-color: #b63232; }
+
+.fairy {
+  background-color: #e2b84e; }
+
+.fighting {
+  background-color: #916262; }
+
+.psychic {
+  background-color: #ecec63; }
+
+.ghost {
+  background-color: gray; }
+
+.ice {
+  background-color: lightblue; }
+
+.grass {
+  background-color: lightgreen; }
+
+.btn-more .row .btn {
+  width: 51rem;
+  height: 7rem;
+  margin-left: 5rem; }
+
+.btn {
+  font-weight: 700;
+  font-size: 24px;
+  background: #1488e7;
+  border-radius: 10px; }
+
+@media only screen and (max-width: 768px) {
+  .btn-more .row .btn {
+    width: 3rem; } }
+@media only screen and (max-width: 992px) {
+  .btn-more .row .btn {
+    width: 25rem; } }
+
+/*# sourceMappingURL=style.css.map */

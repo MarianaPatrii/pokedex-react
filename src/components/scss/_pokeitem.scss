@@ -1,0 +1,39 @@
+.pokeitem {
+    height: 200px;
+    width: 150px;
+    border: 2px solid rgb(90, 89, 89);
+    @include flex-center;
+    flex-direction: column;
+    margin: 10px;
+
+    .name {
+        color: rgb(90, 89, 89);
+        text-transform: capitalize;
+    }
+
+    &:hover {
+        background: rgba(221, 221, 221, 0.5);
+    }
+}
+
+.pokemon {
+    @include flex-center;
+    flex-direction: column;
+    border: 2px solid rgb(90, 89, 89);
+    padding: 20px;
+    margin-top: 18rem;
+    margin-left: 8rem;
+}
+
+@media only screen and (max-width: 768px){
+    .pokemon {
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .pokemon {
+        margin-top: 6rem;
+        margin-left: 1rem;
+    }
+} 

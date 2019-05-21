@@ -1,0 +1,15 @@
+.table {
+    @include table_bg;
+
+    tbody {
+        tr {
+            td {
+                @include table_bg;
+            }
+        }
+    }
+}
+
+.pokemon-name {
+    text-transform: capitalize;
+}
